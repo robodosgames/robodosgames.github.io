@@ -1,3 +1,3 @@
-setTimeout(function () {
-  window.location.href = "jogos.html";
-}, 0);
+// setTimeout(function () {
+//   window.location.href = "jogos.html";
+// }, 0);
