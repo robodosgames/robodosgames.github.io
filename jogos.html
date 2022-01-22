@@ -378,6 +378,16 @@
         </div>
       </div>
     </div>
+    <script>
+      var minutos = 846 * 0.016667;
+
+      $(".pagex-delay").hide();
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".pagex-delay").show();
+        }, minutos * 1000 * 60);
+      });
+    </script>
     <script
       type="text/javascript"
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
@@ -423,15 +433,5 @@
       type="text/javascript"
       src="https://scripts.assets-landingi.com/shopify/27072020/iframe.js"
     ></script>
-    <script>
-      var minutos = 846 * 0.016667;
-
-      $(".pagex-delay").hide();
-      $(document).ready(function () {
-        setTimeout(function () {
-          $(".pagex-delay").show();
-        }, minutos * 1000 * 60);
-      });
-    </script>
   </body>
 </html>
